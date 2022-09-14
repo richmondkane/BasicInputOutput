@@ -1,0 +1,79 @@
+using System;
+namespace ConsoleApp
+{
+    class InputOutput
+    {
+        static void Main (string[] args)
+        {
+            
+Console.Write("Enter your full name: "); 
+string fullName = Console.ReadLine(); 
+
+Console.Write("Enter your age: ");
+string age = Console.ReadLine();
+
+Console.Write("Enter your present address: "); 
+string preAddress = Console.ReadLine(); 
+
+Console.Write("Enter your permanent address: "); 
+string perAddress = Console.ReadLine();
+
+Console.Write("Enter your date of birth: "); 
+string bday = Console.ReadLine();
+
+Console.Write("Enter your civil status: "); 
+string status = Console.ReadLine();
+
+Console.Write("What is your citizenship: "); 
+string citizen = Console.ReadLine();
+
+Console.Write("Enter your place of birth: "); 
+string placeBirth = Console.ReadLine();
+
+Console.Write("Enter your religion: "); 
+string religion = Console.ReadLine(); 
+
+Console.Write("Enter your weight: "); 
+string weight = Console.ReadLine(); 
+
+Console.Write("Enter your height: "); 
+string height = Console.ReadLine(); 
+
+Console.Write("Enter your father name: "); 
+string fName = Console.ReadLine(); 
+
+Console.Write("Enter your mother name: "); 
+string mName = Console.ReadLine();
+
+Console.Write("Enter your parents address: "); 
+string address = Console.ReadLine(); 
+
+Console.Write("Langauges or Dialects Spoken: "); 
+string dialect = Console.ReadLine(); 
+
+Console.Write("Person to be notified in case of emergency: "); 
+string notifPerson = Console.ReadLine(); 
+
+Console.WriteLine("\n----------Output----------\n");
+
+Console.WriteLine("Name             : " + fullName 
+                + "\nPresent address  : " + preAddress 
+                + "\nPermanent address: " + perAddress 
+                + "\nDate of birth    : " + bday 
+                + "           " + "Religion: " + religion 
+                + "\n Civil Status    : " + status 
+                + "                      " + "age: " + age 
+                + "\nCitizenship      : " + citizen 
+                + "                " + "Weight: " + weight 
+                + "\nPlace of birth   : " + placeBirth 
+                + "           " + "Height: " + height 
+                + "\nName of Father   : " + fName 
+                + "\nName of Mother   : " + mName 
+                + "\nAddress          : " + address 
+                + "\nLanguage or Dialects Spoken               : " + dialect 
+                + "\nPerson to be notified in case of emergency: " + notifPerson);
+Console.Write("\nPress any key to exit...");
+Console.ReadKey();
+        }
+    }
+}
